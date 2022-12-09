@@ -46,8 +46,8 @@ body{
   align-items: center;
 }
 .logo .logo-img{
-  width: 100px;
-  height: 70px;
+  width: 120px;
+  height: px;
 }
 
 .logo .logo-txt {
@@ -76,13 +76,6 @@ body{
   align-items: center;
   padding: 0px;
   gap: 30px;
-}
-.btn-primary{
- background-color: #F13A2C;
- border-color: #F13A2C;
-}
-.btn-primary:hover{
-  background-color: #e9635a
 }
 
 .menu .menu-item{

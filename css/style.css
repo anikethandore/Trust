@@ -1,0 +1,181 @@
+/* -------------------------------------
+Name: Aniket Handore
+--------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  /* background-color: #fff7f7; */
+}
+
+.header{
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.top-bar{
+  height: 30px;
+  background-color: gray;
+  align-items: center;
+  display: flex;
+  font-size:12px;
+  color: white;
+  text-transform: capitalize;
+}
+
+
+
+
+
+.navbar{
+  display: flex;
+  margin-left:  35px;
+  margin-right: 35px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo .logo-img{
+  width: 100px;
+  height: 70px;
+}
+
+.logo .logo-txt {
+  max-width: 230px;
+}
+
+.logo .logo-txt p{
+  font-size:8px;
+  margin: 0;
+  color:#F13A2C;
+}
+
+.logo .logo-txt h3{
+  font-weight: 400;
+  font-size: 20px;
+  /* line-height: 30px; */
+  display: flex;
+  align-items: center;
+  margin:0;
+}
+
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+}
+.btn-primary{
+ background-color: #F13A2C;
+ border-color: #F13A2C;
+}
+.btn-primary:hover{
+  background-color: #e9635a
+}
+
+.menu .menu-item{
+  text-decoration: none;
+  color: black
+}
+
+.menu .menu-item:hover{
+  color: #F13A2C;
+}
+.menu .menu-item:focus:hover{
+  color: #F13A2C;
+}
+
+
+
+
+
+.banner-section {
+  padding: 80px 0;
+  min-height: 550px;
+  
+}
+.banner-text h2{
+  font-size: 20px;
+  color: var(--main-color);
+}
+.banner-text h1{
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.banner-text h1 span{
+  color: #F13A2C;
+}
+
+
+.carousel-item img{
+  height: 350px;
+  width: 100%;
+}
+
+
+.carousel-inner{
+  border: 2px solid #e9635a;
+  border-radius: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .carousel-item img{
+    height: 300px;
+  }
+}
+
+
+
+
+.box{
+  background-color:  #f7d3d3;
+  border-radius: 5px;
+  box-shadow: hsl(1,40%,93%);;
+  padding: 30px;
+}
+
+/* ----------------------------------------------------
+22. fun facts section 
+------------------------------------------------------*/
+
+.fun-facts-section{
+  margin-top:30px;
+}
+.fun-facts-item{
+  padding: 15px 0;
+}
+.fun-facts-item h2{
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.fun-facts-item p{
+  margin: 0;
+  text-transform: uppercase;
+}
+.fun-facts-item .style-1{
+  color: black;
+}
+.fun-facts-item .style-2{
+  color: green;
+}
+.fun-facts-item .style-3{
+  color: red;
+}
+.fun-facts-item .style-4{
+  color: orange;
+}

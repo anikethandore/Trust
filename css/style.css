@@ -179,7 +179,9 @@ ul,li{
 
 
 .menu{
+  padding-top: 10px;
   display: flex;
+  background: #32608a;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -189,15 +191,29 @@ ul,li{
 
 .menu .menu-item{
   text-decoration: none;
-  color: black
+  color: white;
+  
 }
 
 .menu .menu-item:hover{
-  color: #F13A2C;
+  color: white;
+  background-color: #F13A2C;
 }
 .menu .menu-item:focus:hover{
   color: #F13A2C;
 }
+
+.btn-primary{
+  background-color: #F13A2C;
+  border-color: #F13A2C;
+ }
+ .btn-primary:hover{
+   background-color: #e9635a
+ }
+
+ .btn-nav{
+  align-items: right;
+ }
 
 
 

@@ -81,8 +81,42 @@ ul,li{
   /* display: flex; */
   align-items: center;
   margin:0;
-
 }
+
+.info{
+  display: flex;
+  position: relative;
+  float: left;
+  margin-left: 40px;
+  padding-left: 50px;
+  min-height: 50px;
+}
+
+.info .icon {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  line-height: 50px;
+  font-size: 32px;
+  color: #ffffff;
+}
+.info .icon .material-icons{
+  font-size: 32px;
+}
+
+.info-box .title {
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.info-box .text {
+  font-size: 15px;
+  color: #6f747c;
+  line-height: 20px;
+}
+
 .social{
 	padding-left:0px;
 	padding:5px 0px;	

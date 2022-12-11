@@ -316,3 +316,7 @@ ul,li{
 .email{
   text-align: center;
 }
+.Aaddress .p{
+  max-resolution: 10px;
+  text-align: center;
+}

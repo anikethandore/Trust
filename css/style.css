@@ -17,6 +17,35 @@ body{
   /* background-color: #fff7f7; */
 }
 
+a{
+  color: var(--main-color);
+  text-decoration: none;
+}
+a:hover{
+  color: var(--main-color);
+}
+img{
+  max-width: 100%;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+  color: var(--black-90);
+  line-height: 1.3;
+}
+h3{
+  font-size: 20px;
+}
+::selection{
+  color: white;
+  background-color:black;
+}
+
+
+
 .header{
   border-bottom: 1px solid rgb(221, 221, 221);
 }
@@ -49,7 +78,6 @@ ul,li{
 
 .logo{
   margin-left:  35px;
-  
   display: flex;
   align-items: center;
 }
@@ -246,16 +274,14 @@ ul,li{
 
 
 .carousel-item img{
-  height: 350px;
-  width: 100%;
+  height: 450px;
+  width: 90%;
 }
 
 
 .carousel-inner img{
-  border: 2px solid #e9635a;
-  border-radius: 5px;
-  height: 350px;
-  width: 100%;
+  height: 450px;
+  width: 90%;
 }
 
 
@@ -405,8 +431,78 @@ a:hover, a:active {
 
 .banner-img{
   vertical-align: middle;
-}
-.banner-img{
   border: 0;
+}
+
+
+
+.section-padding{
+  padding: 60px 0;
+}
+.section-title{
+  margin-bottom: 40px;
+}
+.section-title .title{
+  font-size: 20px;
+  color: var(--main-color);
+  text-transform: capitalize;
+}
+.section-title .sub-title{
+  font-size: 35px;
+  font-weight: 600;
+  color: var(--black-90);
+}
+
+
+
+.courses-item{
+  margin-bottom: 30px;
+  position: relative;
+}
+.courses-item .img-box img{
+  width: 100%;
+  border-radius: 5px;
+}
+.courses-item .link{
+  color: var(--black-70);
+  display: inline-block;
+}
+.courses-item .title{
+  text-transform: capitalize;
+  margin: 15px 0;
+  transition: all 0.3s ease;
+}
+.courses-item:hover .title{
+  color: var(--main-color);
+}
+.courses-item .instructor{
+  text-transform: capitalize;
+  margin: 0 0 12px;
+
+}
+.courses-item .instructor img{
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.courses-item .rating{
+  font-size: 14px;
+}
+.courses-item .average-rating{
+  font-weight: 600;
+  color: var(--orange);
+}
+.courses-item .average-stars{
+  color: var(--orange);
+}
+.courses-item .price{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background-color: var(--main-color);
+  color: var(--WHITE);
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 4px;
 }
 

@@ -246,7 +246,7 @@ ul,li{
 
 
 .carousel-item img{
-  height: 450px;
+  height: 350px;
   width: 100%;
 }
 
@@ -254,7 +254,7 @@ ul,li{
 .carousel-inner img{
   border: 2px solid #e9635a;
   border-radius: 5px;
-  height: 450px;
+  height: 350px;
   width: 100%;
 }
 

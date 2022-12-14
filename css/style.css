@@ -247,13 +247,15 @@ ul,li{
 
 .carousel-item img{
   height: 350px;
-  width: 1000;
+  width: 100%;
 }
 
 
-.carousel-inner{
+.carousel-inner img{
   border: 2px solid #e9635a;
   border-radius: 5px;
+  height: 650px;
+  width: 100%;
 }
 
 

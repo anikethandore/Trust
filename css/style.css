@@ -305,7 +305,7 @@ ul,li{
 22. fun facts section 
 ------------------------------------------------------*/
 
-.fun-facts-section{
+/* .fun-facts-section{
   margin-top:30px;
 }
 .fun-facts-item{
@@ -331,22 +331,31 @@ ul,li{
 }
 .fun-facts-item .style-4{
   color: orange;
-}
-.contactv{
+} */
+/* .contactv{
   margin: 10px;
   text-align: center;
-}
-.contactUs{
+} */
+.contactinfo{
   margin: 10px;
   text-align: center;
+  font-size: xx-large;
 
 }
 .email{
   text-align: center;
+  font: optional;
 }
-.Aaddress .p{
+.Aaddress{
   max-resolution: 10px;
   text-align: center;
+  
+}
+.Aaddress p{
+  font-size: xx-small;
+  max-resolution: 10px;
+  text-align: center;
+  font: optional;
 }
 
 
@@ -506,3 +515,4 @@ a:hover, a:active {
   border-radius: 4px;
 }
 
+/* new navbar css  */

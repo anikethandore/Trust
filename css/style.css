@@ -339,9 +339,20 @@ ul,li{
 
 /* Mayur Features */
 
-.aboutus-section {
-  padding: 90px 0;
+.Aboutus {
+  padding: 90px;
+  font-size: 20px;
+  text-align: left;
+  
 }
+
+.Aboutus span{
+  color: #F56529;
+
+}
+
+
+
 .aboutus-title {
   font-size: 30px;
   letter-spacing: 0;

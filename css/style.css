@@ -352,6 +352,20 @@ ul,li{
 }
 
 
+/* ourjourney  */
+
+.Ourjourney h1 {
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.Ourjourney span{
+  color: #F56529;
+}
+
+/* ourjourney  */
+
 
 .aboutus-title {
   font-size: 30px;
@@ -542,4 +556,4 @@ a:hover, a:active {
      border-top: 1px solid #F56529;
  }
  
- 
+

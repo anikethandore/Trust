@@ -372,6 +372,17 @@ ul,li{
   
 }
 
+.Ourjourney h2::after{
+  content: "";
+  position: absolute;
+  display: block;
+  left: 1px;
+  bottom: -15px;
+  width: 16%;
+  height: 3px;
+  background-color: #F56529;
+}
+
 .Ourjourney span{
   color: #F56529;
 }

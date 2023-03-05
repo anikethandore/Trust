@@ -503,4 +503,251 @@ a{
     text-align: left;
   }
 
+  .Aboutus{
+    padding: 50px;
+    font-size: 20px;
+    text-align: left;
+  }
+  .Aboutus span{
+    color: #F56529;
   
+  }
+  /* ourjourney  */
+
+.Ourjourney  {
+  padding: 50px;
+  font-size: 20px;
+  text-align: left;
+  
+}
+
+
+.Ourjourney h2 {
+  position: relative;
+  
+}
+
+.Ourjourney h2::after{
+  content: "";
+  position: absolute;
+  display: block;
+  left: 1px;
+  bottom: -5px;
+  width: 17%;
+  height: 3px;
+  background-color: #F56529;
+}
+
+.Ourjourney span{
+  color: #F56529;
+}
+
+
+.Ourjourney img{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+/* ourjourney  */
+
+
+/* OurTeam */
+
+.OurTeam  {
+  padding: 50px;
+  font-size: 20px;
+  text-align: left;
+  
+}
+
+
+.OurTeam h2 {
+  position: relative;
+  
+}
+
+.OurTeam h2::after{
+  content: "";
+  position: absolute;
+  display: block;
+  left: 1px;
+  bottom: -5px;
+  width: 14%;
+  height: 3px;
+  background-color: #F56529;
+}
+
+.OurTeam  span{
+  color: #F56529;
+}
+
+/* About  */
+.top-con{
+  height: 85vh;
+  width: 100%;
+  /* margin-top: 11vh; */
+  background-image: linear-gradient(to left, rgba(71, 71, 70, 0.534), #313131), url("../img/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.con{
+  padding-top: 10vh;
+  overflow: hidden;
+}
+/* Heading name */
+.color{
+  color: #F56529;
+}
+
+/* .container h3{
+  font-size: 35px;
+  font-weight: 400;
+} */
+
+.container h4{
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.container p{
+
+}
+/* lineup class and keyframes */
+.lineUp {
+  animation: 2s anim-lineUp ease-out;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.container p{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media(max-width: 600px) {
+.top-con{
+  height: auto
+}
+.arrows{
+  display: none;
+}
+}
+
+/* design of arrow down about page */
+.arrows {
+width: 190px;
+height: 72px;
+position: absolute;
+left: 50%;
+margin-left: -30px;
+}
+
+.arrows path {
+stroke: #ff7300;
+fill: transparent;
+stroke-width: 1px;	
+animation: arrow 2s infinite;
+-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+animation-delay:-1s;
+-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+animation-delay:-0.5s;
+-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+animation-delay:0s;
+-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+
+
+
+/* ----------------------------------------------------
+22. fun facts section 
+------------------------------------------------------*/
+
+.fun-facts-section{
+  margin-top:30px;
+}
+.fun-facts-item{
+  padding: 15px 0;
+}
+.fun-facts-item h2{
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.fun-facts-item p{
+  margin: 0;
+  text-transform: uppercase;
+}
+.fun-facts-item .style-1{
+  color: black;
+}
+.fun-facts-item .style-2{
+  color: green;
+}
+.fun-facts-item .style-3{
+  color: red;
+}
+.fun-facts-item .style-4{
+  color: orange;
+}
+
+.box{
+  background-color:  #f7d3d3;
+  border-radius: 5px;
+  box-shadow: hsl(1,40%,93%);;
+  padding: 30px;
+}
+
+
+.img-container {
+  /* padding: 20px; */
+  text-align: center;
+  
+
+}
+img {
+  padding: 20px;
+}
+
+
